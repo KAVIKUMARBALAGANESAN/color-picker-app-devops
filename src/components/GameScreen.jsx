@@ -6,7 +6,7 @@ const COLORS = [
   { name: 'Blue', hex: 'bg-blue-500', text: 'text-blue-500' },
   { name: 'Yellow', hex: 'bg-yellow-500', text: 'text-yellow-500' },
   { name: 'Purple', hex: 'bg-purple-500', text: 'text-purple-500' },
-  // { name: 'Orange', hex: 'bg-orange-500', text: 'text-orange-500' },
+  { name: 'Orange', hex: 'bg-orange-500', text: 'text-orange-500' },
 ];
 
 const shuffleArray = (array) => {
