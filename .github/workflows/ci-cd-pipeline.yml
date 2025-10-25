@@ -37,7 +37,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # Use a stable Node.js version
+          node-version: '22' # Use a stable Node.js version
           cache: 'npm' # Cache 'npm' dependencies for faster builds
 
       # Step 3: Install all project dependencies
