@@ -85,7 +85,7 @@ export default function GameScreen({ onGameEnd }) {
           </h2>
         </div>
 
-        {/* The Options */}
+        {/* The Options here*/}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {options.map((color) => (
             <button
