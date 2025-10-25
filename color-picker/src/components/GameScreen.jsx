@@ -78,7 +78,7 @@ export default function GameScreen({ onGameEnd }) {
           </div>
         </div>
 
-        {/* The Questions */}
+        {/* The Question */}
         <div className="text-center mb-12">
           <h2 className={`text-6xl font-extrabold ${question.colorClass}`}>
             {question.word}
