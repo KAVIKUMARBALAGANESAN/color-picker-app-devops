@@ -10,7 +10,7 @@ on:
     
   # Run on pull requests targeting 'main' or 'develop' (this is for CI)
   pull_request:
-    branches: [ "main", "develop" ]
+    branches: [ "main", "development" ]
 
 # ---===[ 2. PERMISSIONS ]===---
 # These permissions are required for the workflow to deploy to GitHub Pages
