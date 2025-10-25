@@ -91,9 +91,9 @@ export default function GameScreen({ onGameEnd }) {
             <button
               key={color.name}
               onClick={() => handleOptionClick(color.name)}
-              className={`${color.hex} text-white font-bold py-4 px-6 rounded-lg text-xl shadow-md transition duration-200 hover:scale-105`}
+              className={`${color.hex} text-white font-bold py-4 px-6 h-20 rounded-lg text-xl shadow-md transition duration-200 hover:scale-105`}
             >
-              {color.name}
+              
             </button>
           ))}
         </div>
